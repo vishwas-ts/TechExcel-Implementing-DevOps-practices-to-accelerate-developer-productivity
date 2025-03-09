@@ -1,0 +1,13 @@
+name: First Workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  job1: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step One
+        run: echo "Log from Step One"
+      - name: Step Two
+        run: echo "Log from Step Two"

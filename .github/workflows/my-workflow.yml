@@ -12,7 +12,7 @@ jobs:
       - name: Step Two
         run: echo "Log from Step Two"
   job2:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Cowsays
       # You may pin to the exact commit or the version.

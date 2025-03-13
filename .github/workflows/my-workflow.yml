@@ -11,3 +11,16 @@ jobs:
         run: echo "Log from Step One"
       - name: Step Two
         run: echo "Log from Step Two"
+  job2:
+    runs-on: ubuntu-lates
+    steps:
+      - name: Cowsays
+      # You may pin to the exact commit or the version.
+      # uses: mscoutermarsh/cowsays-action@822c8424f7ebc1f4c8b86b0bcb11e4051b7f42e2
+    uses: mscoutermarsh/cowsays-action@v1
+        with:
+        # What does the cow say?
+        text: "Ready for Prod Ship it!!!!!"
+        # Color of your cow
+        color: red
+          
